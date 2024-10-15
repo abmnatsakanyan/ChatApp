@@ -6,46 +6,74 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		504732FF2CBE93B200A79690 /* UIScrollView+ToBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504732FE2CBE93B200A79690 /* UIScrollView+ToBottom.swift */; };
+		50F48AB22CBD25FE00177E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AA82CBD25FE00177E02 /* AppDelegate.swift */; };
+		50F48AB32CBD25FE00177E02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AAF2CBD25FE00177E02 /* SceneDelegate.swift */; };
+		50F48AB52CBD25FE00177E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F48AA92CBD25FE00177E02 /* Assets.xcassets */; };
+		50F48AB72CBD25FE00177E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F48AAC2CBD25FE00177E02 /* LaunchScreen.storyboard */; };
+		50F48ABC2CBD262E00177E02 /* ChatInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48ABB2CBD262E00177E02 /* ChatInterfaces.swift */; };
+		50F48ABE2CBD269100177E02 /* ChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48ABD2CBD269100177E02 /* ChatPresenter.swift */; };
+		50F48AC02CBD26BA00177E02 /* ChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48ABF2CBD26BA00177E02 /* ChatInteractor.swift */; };
+		50F48AC22CBD26F800177E02 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AC12CBD26F800177E02 /* ChatViewController.swift */; };
+		50F48AC42CBD272800177E02 /* ChatConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AC32CBD272800177E02 /* ChatConfigurator.swift */; };
+		50F48AC72CBD399100177E02 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AC62CBD399100177E02 /* Message.swift */; };
+		50F48AC92CBD39CE00177E02 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AC82CBD39CE00177E02 /* MessageCell.swift */; };
+		50F48ACB2CBD39F500177E02 /* MessageCellContentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48ACA2CBD39F500177E02 /* MessageCellContentConfiguration.swift */; };
+		50F48ACE2CBD3A5A00177E02 /* UIView+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48ACD2CBD3A5A00177E02 /* UIView+Corners.swift */; };
+		50F48AD02CBD3CF400177E02 /* DiffableSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48ACF2CBD3CF400177E02 /* DiffableSnapshot.swift */; };
+		50F48AD32CBD3EA300177E02 /* InputBarAccessoryView in Frameworks */ = {isa = PBXBuildFile; productRef = 50F48AD22CBD3EA300177E02 /* InputBarAccessoryView */; };
+		50F48AD52CBD3F8A00177E02 /* MessageInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AD42CBD3F8A00177E02 /* MessageInputBar.swift */; };
+		50F48AD72CBD83AC00177E02 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F48AD62CBD83AC00177E02 /* ChatService.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		504732FE2CBE93B200A79690 /* UIScrollView+ToBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ToBottom.swift"; sourceTree = "<group>"; };
 		50F48A902CBD25AA00177E02 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F48AA82CBD25FE00177E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50F48AA92CBD25FE00177E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F48AAA2CBD25FE00177E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F48AAB2CBD25FE00177E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F48AAF2CBD25FE00177E02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50F48ABB2CBD262E00177E02 /* ChatInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInterfaces.swift; sourceTree = "<group>"; };
+		50F48ABD2CBD269100177E02 /* ChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPresenter.swift; sourceTree = "<group>"; };
+		50F48ABF2CBD26BA00177E02 /* ChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractor.swift; sourceTree = "<group>"; };
+		50F48AC12CBD26F800177E02 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		50F48AC32CBD272800177E02 /* ChatConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConfigurator.swift; sourceTree = "<group>"; };
+		50F48AC62CBD399100177E02 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		50F48AC82CBD39CE00177E02 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		50F48ACA2CBD39F500177E02 /* MessageCellContentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellContentConfiguration.swift; sourceTree = "<group>"; };
+		50F48ACD2CBD3A5A00177E02 /* UIView+Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corners.swift"; sourceTree = "<group>"; };
+		50F48ACF2CBD3CF400177E02 /* DiffableSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableSnapshot.swift; sourceTree = "<group>"; };
+		50F48AD42CBD3F8A00177E02 /* MessageInputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputBar.swift; sourceTree = "<group>"; };
+		50F48AD62CBD83AC00177E02 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		50F48AA22CBD25AC00177E02 /* Exceptions for "ChatApp" folder in "ChatApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 50F48A8F2CBD25AA00177E02 /* ChatApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		50F48A922CBD25AA00177E02 /* ChatApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				50F48AA22CBD25AC00177E02 /* Exceptions for "ChatApp" folder in "ChatApp" target */,
-			);
-			path = ChatApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		50F48A8D2CBD25AA00177E02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F48AD32CBD3EA300177E02 /* InputBarAccessoryView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504732FD2CBE72FB00A79690 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				50F48AC82CBD39CE00177E02 /* MessageCell.swift */,
+				50F48ACA2CBD39F500177E02 /* MessageCellContentConfiguration.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		50F48A872CBD25AA00177E02 = {
 			isa = PBXGroup;
 			children = (
-				50F48A922CBD25AA00177E02 /* ChatApp */,
+				50F48AB12CBD25FE00177E02 /* ChatApp */,
 				50F48A912CBD25AA00177E02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +84,54 @@
 				50F48A902CBD25AA00177E02 /* ChatApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		50F48AB12CBD25FE00177E02 /* ChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				50F48AB92CBD260300177E02 /* Scenes */,
+				50F48ACF2CBD3CF400177E02 /* DiffableSnapshot.swift */,
+				50F48AC62CBD399100177E02 /* Message.swift */,
+				50F48AD42CBD3F8A00177E02 /* MessageInputBar.swift */,
+				50F48AD62CBD83AC00177E02 /* ChatService.swift */,
+				50F48ACC2CBD3A4400177E02 /* Extensions */,
+				50F48AA82CBD25FE00177E02 /* AppDelegate.swift */,
+				50F48AAF2CBD25FE00177E02 /* SceneDelegate.swift */,
+				50F48AA92CBD25FE00177E02 /* Assets.xcassets */,
+				50F48AAA2CBD25FE00177E02 /* Info.plist */,
+				50F48AAC2CBD25FE00177E02 /* LaunchScreen.storyboard */,
+			);
+			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		50F48AB92CBD260300177E02 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				50F48ABA2CBD260B00177E02 /* Chat */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		50F48ABA2CBD260B00177E02 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				504732FD2CBE72FB00A79690 /* Cell */,
+				50F48AC12CBD26F800177E02 /* ChatViewController.swift */,
+				50F48ABD2CBD269100177E02 /* ChatPresenter.swift */,
+				50F48ABF2CBD26BA00177E02 /* ChatInteractor.swift */,
+				50F48ABB2CBD262E00177E02 /* ChatInterfaces.swift */,
+				50F48AC32CBD272800177E02 /* ChatConfigurator.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		50F48ACC2CBD3A4400177E02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50F48ACD2CBD3A5A00177E02 /* UIView+Corners.swift */,
+				504732FE2CBE93B200A79690 /* UIScrollView+ToBottom.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,12 +148,11 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				50F48A922CBD25AA00177E02 /* ChatApp */,
+				50F48ADA2CBE554700177E02 /* PBXTargetDependency */,
 			);
 			name = ChatApp;
 			packageProductDependencies = (
+				50F48AD22CBD3EA300177E02 /* InputBarAccessoryView */,
 			);
 			productName = ChatApp;
 			productReference = 50F48A902CBD25AA00177E02 /* ChatApp.app */;
@@ -107,6 +182,10 @@
 			);
 			mainGroup = 50F48A872CBD25AA00177E02;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				50F48AD12CBD3EA300177E02 /* XCRemoteSwiftPackageReference "InputBarAccessoryView" */,
+				50F48AD82CBE54C900177E02 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 50F48A912CBD25AA00177E02 /* Products */;
 			projectDirPath = "";
@@ -122,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F48AB52CBD25FE00177E02 /* Assets.xcassets in Resources */,
+				50F48AB72CBD25FE00177E02 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +213,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F48AC02CBD26BA00177E02 /* ChatInteractor.swift in Sources */,
+				50F48AB22CBD25FE00177E02 /* AppDelegate.swift in Sources */,
+				50F48AB32CBD25FE00177E02 /* SceneDelegate.swift in Sources */,
+				50F48AC22CBD26F800177E02 /* ChatViewController.swift in Sources */,
+				50F48AD52CBD3F8A00177E02 /* MessageInputBar.swift in Sources */,
+				50F48AC42CBD272800177E02 /* ChatConfigurator.swift in Sources */,
+				504732FF2CBE93B200A79690 /* UIScrollView+ToBottom.swift in Sources */,
+				50F48AC72CBD399100177E02 /* Message.swift in Sources */,
+				50F48AD02CBD3CF400177E02 /* DiffableSnapshot.swift in Sources */,
+				50F48ABE2CBD269100177E02 /* ChatPresenter.swift in Sources */,
+				50F48AD72CBD83AC00177E02 /* ChatService.swift in Sources */,
+				50F48ABC2CBD262E00177E02 /* ChatInterfaces.swift in Sources */,
+				50F48ACB2CBD39F500177E02 /* MessageCellContentConfiguration.swift in Sources */,
+				50F48ACE2CBD3A5A00177E02 /* UIView+Corners.swift in Sources */,
+				50F48AC92CBD39CE00177E02 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F48ADA2CBE554700177E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 50F48AD92CBE554700177E02 /* SwiftLintBuildToolPlugin */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F48AAC2CBD25FE00177E02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F48AAB2CBD25FE00177E02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		50F48AA42CBD25AC00177E02 /* Debug */ = {
@@ -150,9 +264,9 @@
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,9 +274,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chats.ChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -178,9 +296,9 @@
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -188,9 +306,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chats.ChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -335,6 +457,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		50F48AD12CBD3EA300177E02 /* XCRemoteSwiftPackageReference "InputBarAccessoryView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nathantannar4/InputBarAccessoryView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		50F48AD82CBE54C900177E02 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50F48AD22CBD3EA300177E02 /* InputBarAccessoryView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50F48AD12CBD3EA300177E02 /* XCRemoteSwiftPackageReference "InputBarAccessoryView" */;
+			productName = InputBarAccessoryView;
+		};
+		50F48AD92CBE554700177E02 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50F48AD82CBE54C900177E02 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50F48A882CBD25AA00177E02 /* Project object */;
 }

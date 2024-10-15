@@ -1,0 +1,24 @@
+{
+  "originHash" : "b1ae2aa2a0d02975c4ca8ff3cf838b5fa26dbf6fb431d563d84247118bbe55ac",
+  "pins" : [
+    {
+      "identity" : "inputbaraccessoryview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nathantannar4/InputBarAccessoryView.git",
+      "state" : {
+        "revision" : "47301432684d817147e22c30f7529f14db8bcad7",
+        "version" : "6.5.0"
+      }
+    },
+    {
+      "identity" : "swiftlintplugins",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SimplyDanny/SwiftLintPlugins",
+      "state" : {
+        "revision" : "7c80ce6f142164b0201871e580b021d1b2c69804",
+        "version" : "0.57.0"
+      }
+    }
+  ],
+  "version" : 3
+}
